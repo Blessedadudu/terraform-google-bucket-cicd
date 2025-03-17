@@ -14,7 +14,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "vendor_bucket" {
-  name     = "vendor-bucket-123t4353"
+  name     = "vendor-bucket-123t"
   location = "europe-west1"
   storage_class = "STANDARD"
 
